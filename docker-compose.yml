@@ -1,0 +1,9 @@
+# Run with docker-compose up to test the custom nginx image
+
+version: "3.9"
+services:
+  nginx:
+    build: .
+    env_file: .env.sample
+    ports:
+      - "80:80"

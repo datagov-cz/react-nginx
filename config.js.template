@@ -1,0 +1,7 @@
+// Dynamic configuration
+window.__config__ = {
+  CONTEXT: '${CONTEXT}',
+  ID: '${ID}',
+  URL: '${URL}',
+  COMPONENTS: '${COMPONENTS}'
+}
